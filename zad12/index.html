@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artykuły z Supabase</title>
+</head>
+<body>
+  <h1>Lista artykułów</h1>
+
+  <label for="sort">Sortuj:</label>
+  <select id="sort">
+    <option value="created_at.asc">po dacie rosnąco</option>
+    <option value="created_at.desc" selected>po dacie malejąco</option>
+    <option value="title.asc">po nazwie alfabetycznie</option>
+  </select>
+
+  <div id="articles"></div>
+
+  <h2>Dodaj nowy artykuł</h2>
+  <form id="articleForm">
+    <input type="text" id="title" placeholder="Tytuł" required><br>
+    <input type="text" id="subtitle" placeholder="Podtytuł" required><br>
+    <input type="text" id="author" placeholder="Autor" required><br>
+    <textarea id="content" placeholder="Treść" required></textarea><br>
+    <input type="datetime-local" id="created_at" required><br>
+    <button type="submit">Dodaj artykuł</button>
+  </form>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
