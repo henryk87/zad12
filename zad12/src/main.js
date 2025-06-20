@@ -2,8 +2,8 @@ import { format } from 'date-fns';
 
 console.log(format(new Date(), 'dd-MM-yyyy'));
 
-const API_URL = 'https://rktzednpmupqgwbluewv.supabase.co/rest/v1/article';
-const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJrdHplZG5wbXVwcWd3Ymx1ZXd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NTk3NjcsImV4cCI6MjA2MzIzNTc2N30._hY_SmAiPfkv3_5QtfVT0hiHaOgtuvMUGnIZydLRoyA';
+const API_URL = 'https://fhqpdlxnvdysuarbifvf.supabase.co/rest/v1/article';
+const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZocXBkbHhudmR5c3VhcmJpZnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgzNDgwNTcsImV4cCI6MjA2MzkyNDA1N30.NI6W2AJ6xucF22Ah13Me6Uj3iZsDsVUFNj8g8GtHzAg';
 
 const sortSelect = document.getElementById('sort');
 
